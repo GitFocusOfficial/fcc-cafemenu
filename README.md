@@ -10,12 +10,12 @@ In this project, you will learn the basics of CSS (Cascading Style Sheets) by bu
 
 As you learned in the last few steps of the Cat Photo App, there is a basic structure needed to start building your web page. Every HTML document should have a DOCTYPE declaration and html element. The DOCTYPE tells the browser which version of HTML the document is in. And the html element represents the root element which contains all other elements.
 
-```Example Code
+Example Code
 
-<!DOCTYPE html>
+``<!DOCTYPE html>
 <html lang="en">
 <!--all other elements go here-->
-</html>```
+</html>``
 
 Add the ``<!DOCTYPE html>`` tag, and an html element with a lang attribute of en.
 
