@@ -98,3 +98,38 @@ You have styled three elements by writing CSS inside the style tags. This works,
 We have created a separate styles.css file for you and switched the editor view to that file. You can change between files with the tabs at the top of the editor.
 
 Start by rewriting the styles you have created into the styles.css file. Make sure to exclude the opening and closing style tags.
+
+**Step 15**
+
+Now that you have the CSS in the **styles.css** file, go ahead and remove the **style** element and all its content. Once it is removed, the text that was centered will shift back to the left.
+
+**Step 16**
+
+Now you need to link the styles.css file, so the styles will be applied again. Inside the head element, add a link element. Give it a rel attribute with the value of "stylesheet" and a href attribute with the value of "styles.css".
+
+**Step 17**
+
+For the styling of the page to look similar on mobile as it does on a desktop or laptop, you need to add a meta element with a special content attribute.
+
+Add the following within the head element:
+
+Example Code
+
+```meta
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+```
+
+**Step 18**
+
+The text is centered again so the link to the CSS file is working. Add another style to the file that changes the background-color property to brown for the body element.
+
+
+**Step 19**
+
+That brown background makes it hard to read the text. Change the body element's background color to be burlywood so it has some color but you are still be able to read the text.
+
+**Step 20**
+
+The div element is used mainly for design layout purposes unlike the other content elements you have used so far. Add a div element inside the body element and then move all the other elements inside the new div.
+
+Inside the opening div tag, add the id attribute with a value of menu.
