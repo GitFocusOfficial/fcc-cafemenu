@@ -12,7 +12,8 @@ As you learned in the last few steps of the Cat Photo App, there is a basic stru
 
 Example Code
 
-```<!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html lang="en">
 <!--all other elements go here-->
 </html>
