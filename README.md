@@ -17,6 +17,7 @@ Example Code
 <html lang="en">
 <!--all other elements go here-->
 </html>
+```
 
 Add the `<!DOCTYPE html>` tag, and an html element with a lang attribute of en.
 
