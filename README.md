@@ -12,18 +12,18 @@ As you learned in the last few steps of the Cat Photo App, there is a basic stru
 
 Example Code
 
-``<!DOCTYPE html>
-<html lang="en">
-<!--all other elements go here-->
-</html>``
+`<!DOCTYPE html>`
+`<html lang="en">`
+`<!--all other elements go here-->`
+`</html>`
 
 Add the `<!DOCTYPE html>` tag, and an html element with a lang attribute of en.
 
-Step 2
+**Step 2**
 
 Add a head element within the html element, so you can add a title element. The title element's text should be Cafe Menu.
 
-Step 3
+**Step 3**
 
 The title is one of several elements that provide extra information not visible on the web page, but it is useful for search engines or how the page gets displayed.
 
