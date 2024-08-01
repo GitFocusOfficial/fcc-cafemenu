@@ -1,4 +1,4 @@
-Learn Basic CSS by Building a Cafe Menu
+# Learn Basic CSS by Building a Cafe Menu
 
 CSS tells the browser how to display your webpage. You can use CSS to set the color, font, size, and other aspects of HTML elements.
 
@@ -10,7 +10,7 @@ In this project, you will learn the basics of CSS (Cascading Style Sheets) by bu
 
 As you learned in the last few steps of the Cat Photo App, there is a basic structure needed to start building your web page. Every HTML document should have a DOCTYPE declaration and html element. The DOCTYPE tells the browser which version of HTML the document is in. And the html element represents the root element which contains all other elements.
 
-Example Code
+'''Example Code
 
 <!DOCTYPE html>
 <html lang="en">
@@ -85,3 +85,10 @@ selector1, selector2 {
 
 Delete the three existing type selectors and replace them with one selector list that centers the text for the h1, h2, and p elements.
 
+Step 14
+
+You have styled three elements by writing CSS inside the style tags. This works, but since there will be many more styles, it's best to put all the styles in a separate file and link to it.
+
+We have created a separate styles.css file for you and switched the editor view to that file. You can change between files with the tabs at the top of the editor.
+
+Start by rewriting the styles you have created into the styles.css file. Make sure to exclude the opening and closing style tags.
