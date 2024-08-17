@@ -133,3 +133,31 @@ That brown background makes it hard to read the text. Change the body element's 
 The div element is used mainly for design layout purposes unlike the other content elements you have used so far. Add a div element inside the body element and then move all the other elements inside the new div.
 
 Inside the opening div tag, add the id attribute with a value of menu.
+
+**Step 21**
+
+The goal now is to make the `div` not take up the entire width of the page. The CSS `width` property is perfect for this.
+
+You can use the `id` selector to target a specific element with an `id` attribute. An `id` selector is defined by placing the hash symbol `#` directly in front of the element's `id` value. For example, if an element has the `id` of `cat` then you would target that element like this:
+
+Example Code
+
+```cat
+#cat {
+  width: 250px;
+}
+```
+
+Use the `#menu` selector to give your element a width of `300px`.
+
+**Step 22**
+
+Comments in CSS look like this:
+
+Example Code
+
+```comment
+/* comment here */
+```
+
+In your style sheet, comment out the line containing the `background-color` property and value, so you can see the effect of only styling the `#menu` element. This will make the background white again.
